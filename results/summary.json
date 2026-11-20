@@ -1,0 +1,17 @@
+{
+  "n_complaints": 15568,
+  "vectorization": {
+    "tfidf_agreement": 0.7608,
+    "embedding_agreement": 0.792,
+    "tfidf_density": 0.014978982528263103
+  },
+  "best_k": {
+    "LDA": 11,
+    "NMF": 11
+  },
+  "best_coherence": {
+    "LDA": 0.589,
+    "NMF": 0.672
+  },
+  "mean_lda_nmf_jaccard": 0.33
+}
