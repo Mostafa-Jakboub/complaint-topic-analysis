@@ -55,7 +55,7 @@ complaint-topic-analysis/
 Clone the repo and make a virtual environment:
 
 ```bash
-git clone https://github.com/<Mostefa-Jakboub>/complaint-topic-analysis.git
+git clone https://github.com/Mostefa-Jakboub/complaint-topic-analysis.git
 cd complaint-topic-analysis
 python -m venv .venv
 ```
