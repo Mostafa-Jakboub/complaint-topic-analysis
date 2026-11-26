@@ -55,7 +55,7 @@ complaint-topic-analysis/
 Clone the repo and make a virtual environment:
 
 ```bash
-git clone https://github.com/Mostefa-Jakboub/complaint-topic-analysis.git
+git clone https://github.com/Mostafa-Jakboub/complaint-topic-analysis.git
 cd complaint-topic-analysis
 python -m venv .venv
 ```
@@ -68,9 +68,12 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-Next you need the data. Download the complaints CSV from consumerfinance.gov (there are also
-copies on Kaggle) and save it as `data/complaints.csv`. It needs the columns
-`Consumer complaint narrative`, `Product` and `Issue`.
+Next you need the data. The current CFPB download no longer includes the complaint texts,
+so use the archive file I used, which covers January and February 2025:
+https://files.consumerfinance.gov/f/documents/CCDB_Export_9_January_2025_through_February_2025.zip
+
+Unzip it, rename the CSV to `complaints.csv` and put it in the `data` folder. It needs the
+columns `Consumer complaint narrative`, `Product` and `Issue`.
 
 Then:
 
